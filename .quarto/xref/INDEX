@@ -1,0 +1,47 @@
+{
+  "index.qmd": {
+    "index.html": "e146dba8"
+  },
+  "misc/glossary.qmd": {
+    "glossary.html": "1a91a721"
+  },
+  "misc/how-to-guide.qmd": {
+    "how-to-guide.html": "a94987eb"
+  },
+  "misc/resources.qmd": {
+    "resources.html": "c2578a96"
+  },
+  "lit_review/index.qmd": {
+    "index.html": "aff25317"
+  },
+  "lit_review/valavi2019.qmd": {
+    "valavi2019.html": "366faf89"
+  },
+  "lit_review/meyer2019.qmd": {
+    "meyer2019.html": "0ff92736"
+  },
+  "about/phd_objectives.qmd": {
+    "phd_objectives.html": "cb78fc57"
+  },
+  "about/phd_experience.qmd": {
+    "phd_experience.html": "70c94cf4"
+  },
+  "references.qmd": {
+    "references.html": "a2a2dd9b"
+  },
+  "ideas.qmd": {
+    "ideas.html": "111a4421"
+  },
+  "meetings/index.qmd": {
+    "index.html": "0a87f743"
+  },
+  "meetings/2023-02-23.qmd": {
+    "2023-02-23.html": "db954f08"
+  },
+  "meetings/2023-01-17.qmd": {
+    "2023-01-17.html": "b859eb70"
+  },
+  "meetings/2023-02-24.qmd": {
+    "2023-02-24.html": "54add9ea"
+  }
+}

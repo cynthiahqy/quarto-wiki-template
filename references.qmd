@@ -1,0 +1,20 @@
+---
+title: "Bibliography"
+nocite: '@*'
+citation-location: document
+---
+
+To collect all the references that appear on any page in this website, this document has the following YAML options:
+
+``` yaml
+---
+title: "Bibliography"
+nocite: '@*'
+citation-location: document
+---
+```
+
+## References
+
+::: {#refs}
+:::

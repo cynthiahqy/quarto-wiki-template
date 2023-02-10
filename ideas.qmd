@@ -1,0 +1,31 @@
+---
+title: "Ideas"
+bibliography: references.bib
+---
+
+## 2023
+
+### 24 FEB 2023 // :sparkle: quarto templates
+
+To use quarto templates: `quarto use template github/repo`
+
+### 13 FEB 2023 // Quarto research compendium?
+
+Had an idea about using quarto website as a research compendium for tracking:
+
+-   thesis plan
+-   supervisor meeting notes
+-   random thoughts and ideas
+-   literature summaries
+-   glossary, references
+
+It would be extra cool if you could serve the static site semi-privately so only specific people can see it. [^1]
+
+[^1]: try this [tutorial](https://github.com/cynthiahqy/oauth-tutorial)
+
+### 15 JAN 2023 // Reproducible Research
+
+Some great resources:
+
+-   @community2022
+-   [CRAN Task View: Reproducible Research](https://cran.r-project.org/web/views/ReproducibleResearch.html)

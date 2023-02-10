@@ -1,0 +1,21 @@
+## How-to Reminders
+
+::: callout-tip
+Maybe put things you often google here.
+:::
+
+### Install and Update Quarto
+
+Handled via [Quarto homebrew cask](https://formulae.brew.sh/cask/quarto#default)
+
+``` bash
+# first time
+brew install --cask quarto
+# update
+brew upgrade --cask quarto
+```
+
+### YAML options
+
+-   [Quarto Website options](https://quarto.org/docs/reference/projects/websites.html)
+-   [Quarto HTML options](https://quarto.org/docs/reference/formats/html.html)

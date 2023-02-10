@@ -1,0 +1,24 @@
+---
+title: "Meetings"
+
+listing:
+  id: meetings
+  type: table
+  fields: [date, title, description, attendees, location]
+  field-display-names: 
+    attendees: "People"
+    location: "Location"
+---
+
+To add meeting notes, just add a new file in this folder with following YAML:
+
+``` yaml
+title: "Numbats Hackathon Wrap-Up"
+date: 2022-02-24
+description: "Sharing all the cool things we made"
+attendees: ""
+location: "San Remo, VIC"
+```
+
+::: {#meetings}
+:::

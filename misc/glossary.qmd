@@ -1,0 +1,17 @@
+# Glossary
+
+The markdown
+
+``` md
+term
+
+: defintion
+```
+
+renders as:
+
+## Definitions
+
+term
+
+:   a sentence or two defining some term, acronym or concept you want to remember

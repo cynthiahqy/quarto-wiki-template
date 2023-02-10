@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "misc/glossary.html",
+    "href": "misc/glossary.html",
+    "title": "Quarto Wiki",
+    "section": "",
+    "text": "The markdown\nterm\n\n: defintion\nrenders as:\n\n\n\nterm\n\na sentence or two defining some term, acronym or concept you want to remember"
+  },
+  {
+    "objectID": "misc/how-to-guide.html",
+    "href": "misc/how-to-guide.html",
+    "title": "Quarto Wiki",
+    "section": "",
+    "text": "Tip\n\n\n\nMaybe put things you often google here.\n\n\n\n\nHandled via Quarto homebrew cask\n# first time\nbrew install --cask quarto\n# update\nbrew upgrade --cask quarto\n\n\n\n\nQuarto Website options\nQuarto HTML options"
+  },
+  {
+    "objectID": "misc/resources.html",
+    "href": "misc/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "2022-05-19: Connected via DataGrip (Add Postgres)\nHost: 118.138.244.154\nUser: limitedaccess\nPW: on slack"
+  },
+  {
+    "objectID": "misc/resources.html#reproducible-research",
+    "href": "misc/resources.html#reproducible-research",
+    "title": "Resources",
+    "section": "Reproducible Research",
+    "text": "Reproducible Research\n\nGreg Wilson’s rules for research software and teaching\nResearch Software Engineering with Python course"
+  },
+  {
+    "objectID": "misc/resources.html#quarto-rstudio-visual-mode",
+    "href": "misc/resources.html#quarto-rstudio-visual-mode",
+    "title": "Resources",
+    "section": "Quarto + Rstudio Visual Mode",
+    "text": "Quarto + Rstudio Visual Mode\n\nBlog Posts on Quarto\n\nhttps://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/\nhttps://www.njtierney.com/post/2022/04/11/rmd-to-qmd/\n\n\n\n2022 Reproducible Authoring with Quarto - Mine Çetinkaya-Rundel\nTalk given at 2022 Toronto Workshop for Reproducibility\n📺 Link to YouTube Recording\n\n01:18 RMarkdown -> Quarto + live demo\n04:16 RStudio Visual Editor – removes some cognitive load of learning RMarkdown + coding, forward slash “/” to - insert anything\n05:35 Quarto can render RMarkdown even if you just change the file extension\n06:10 Shared features – output: –> format:, live rendering, citations (from DOI search!), in-line R code\n12:20 Quarto specific – YAML style chunk options (great for alt text) but mixed style works!; global chunk - options in yaml header; code-link: true\n16:18 Visual Editor helps with avoiding minutiae of markdown syntax – alt-text, captions, links, tab-sets\n18:13 Change output from html to reveal.js slides – `chalkboard: true` adds annotation tool; built-in - presentation tools\n20:14 more Quarto features– R and python, support in other text editors, projects\n24:15 Q&A\n\n\n\nR Markdown Advanced Tips to Become a Better Data Scientist & RStudio Connect | With Tom Mock\n📺Link to YouTube Live Stream\n📋Content Package Google Doc\n🧑‍💻GitHub Repo\n\n04:15 Literate Programming\n09:00 - Rstudio Visual Editor Demo\n15:44 - [🐍🔵] R and python in same document via {reticulate}\n18:10 - Q&A: Options for collaborative editing (version - control, shared drive etc.)\n19:30 - Q&A: Multi-pane support in Rstudio\n20:46 Data Product (reports, presentations, dashboards, - websites etc.)\n24:15 - Distill article\n26:27 - Xaringan presentation (add three dashes — for - new slide)\n28:58 - Flexdashboard (with shiny)\n30:30 - [📉] Crosstalk (talk between different html widgets - instead of {shiny} server)\n35:03 - Q&A: Jobs panel – parallelise render jobs in - background\n36:50 - Q&A: various data product packages, formats\n39:35 Control Document (modularise data science tasks, - control code flow)\n39:58 - [🧶] Knit with Parameters (YAML params: option)\n\ndocumenting different models or datasets\n\n41:20 - Reference named chunks from .R files - (knitr::read_chunk())\n43:00 - Child Documents (reuse content, conditional - inclusion, {blastula} email)\n47:07 Templating (don’t repeat yourself)\n47:38 - rmarkdown::render() with params, looping through - different param combinations\n49:30 - loop templates within a single document\n50:40 - 04-templating/ live code demo\n54:37 - {whisker} vs {glue} – {{logic-less}} vs {logic - templating}\n55:30 - {whisker} for generating markdown files that you - can continue editing\n57:49 RMarkdown + Rstudio Connect\n1:00:41 Follow-up Reading and resources\n1:04:49 Q&A - {shiny} apps, {webshot2} for screenshots of - html, reading in multiple .R files, best practice for producing MSoffice files, {blastula}\n\nFor me:\n\nknit with params to document different model/hyper-parameter options \ninteractive graphic for exploring Panel Maps with {crosstalk}\nUsing R & Python in Rmarkdown (and hence Quarto)"
+  },
+  {
+    "objectID": "ideas.html",
+    "href": "ideas.html",
+    "title": "Ideas",
+    "section": "",
+    "text": "To use quarto templates: quarto use template github/repo\n\n\n\nHad an idea about using quarto website as a research compendium for tracking:\n\nthesis plan\nsupervisor meeting notes\nrandom thoughts and ideas\nliterature summaries\nglossary, references\n\nIt would be extra cool if you could serve the static site semi-privately so only specific people can see it. 11 try this tutorial\n\n\n\nSome great resources:\n\nCommunity (2022)\nCRAN Task View: Reproducible Research\n\n\n\n\nCommunity, The Turing Way. 2022. The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research. Zenodo. https://doi.org/10.5281/ZENODO.7625728."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This the wiki’s homepage."
+  },
+  {
+    "objectID": "meetings/index.html",
+    "href": "meetings/index.html",
+    "title": "Meetings",
+    "section": "",
+    "text": "To add meeting notes, just add a new file in this folder with following YAML:\ntitle: \"Numbats Hackathon Wrap-Up\"\ndate: 2022-02-24\ndescription: \"Sharing all the cool things we made\"\nattendees: \"\"\nlocation: \"San Remo, VIC\"\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\nPeopl\n\n\nLocation\n\n\n\n\n\n\nFeb 24, 2022\n\n\nNumbats Hackathon Wrap-Up\n\n\nSharing all the cool things we made\n\n\nmultiple\n\n\nSan Remo, VIC\n\n\n\n\nJan 17, 2023\n\n\nSupervisor Meeting\n\n\n\n\n\nCH, RH, ET\n\n\nMonash Clayton\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "meetings/2023-02-23.html#action-points",
+    "href": "meetings/2023-02-23.html#action-points",
+    "title": "Numbats Hackathon Wrap-Up",
+    "section": "Action Points",
+    "text": "Action Points"
+  },
+  {
+    "objectID": "meetings/2023-01-17.html",
+    "href": "meetings/2023-01-17.html",
+    "title": "Supervisor Meeting",
+    "section": "",
+    "text": "General Housekeeping\n\nsubmit form X\n\n\n\nResearch Updates\n\nfinished first draft\n\n\n\nDiscussion\n\nuseful feedback and ideas"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Bibliography",
+    "section": "",
+    "text": "To collect all the references that appear on any page in this website, this document has the following YAML options:"
+  },
+  {
+    "objectID": "references.html#bibliography",
+    "href": "references.html#bibliography",
+    "title": "Bibliography",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\nCommunity, The Turing Way. 2022. The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research. Zenodo. https://doi.org/10.5281/ZENODO.7625728."
+  },
+  {
+    "objectID": "references.html#references",
+    "href": "references.html#references",
+    "title": "Bibliography",
+    "section": "References",
+    "text": "References\n\n\nCommunity, The Turing Way. 2022. The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research. Zenodo. https://doi.org/10.5281/ZENODO.7625728."
+  },
+  {
+    "objectID": "meetings/2023-02-24.html#action-points",
+    "href": "meetings/2023-02-24.html#action-points",
+    "title": "Numbats Hackathon Wrap-Up",
+    "section": "Action Points",
+    "text": "Action Points"
+  }
+]

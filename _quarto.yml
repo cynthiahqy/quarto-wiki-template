@@ -1,0 +1,40 @@
+project:
+  type: website
+
+execute: 
+  freeze: auto
+
+bibliography: references.bib
+
+website:
+  title: "Quarto Wiki"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - index.qmd
+      - text: "Ideas"
+        href: ideas.qmd
+      - meetings/index.qmd
+      - sidebar:misc
+      
+  sidebar:
+    - id: misc
+      title: "Misc."
+      style: "docked"
+      contents:
+        - auto: misc/*
+        - references.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    from: markdown+emoji
+    reference-location: margin
+    citation-location: margin
+    sidebar: false
+
+
+
