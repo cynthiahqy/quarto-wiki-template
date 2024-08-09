@@ -21,12 +21,6 @@ quarto use template cynthiahqy/quarto-wiki-template
     -   website format and theme
     -   any other available [Website Options](https://quarto.org/docs/reference/projects/websites.html)
 
-## OAuth Authentication
+## Static Encryption
 
-This template also contains three non-quarto files:
-
--   `Dockerfile`
--   `email_list.txt` -- remember to modify this as per tutorial instructions
--   `render.yaml`
-
-Use these files to serve this site semi-privately as described in this OAuth2 Proxy tutorial: - [hamelsmu/oauth-tutorial](https://github.com/hamelsmu/oauth-tutorial) - see my fork ([cynthiahqy/oauth-tutorial](https://github.com/cynthiahqy/oauth-tutorial)) for some slightly modified instructions based on my experience using a custom domain purchased via Netlify
+Follow the instructions here to add password protection to your wiki: https://github.com/robjhyndman/quarto-password
